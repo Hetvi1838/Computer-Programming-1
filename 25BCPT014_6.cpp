@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    float a, b;
-    printf("Enter the minutes to be converted into hours:");
-    scanf("%f", &a);
-    b=a/60;
-    printf("%f minutes in hours = %f", a, b);
+    int a, b;
+    printf("Enter the hour to be converted into minutes:");
+    scanf("%d", &a);
+    b=a*60;
+    printf("%d hrs in minutes = %d", a, b);
     return 0;
 }
