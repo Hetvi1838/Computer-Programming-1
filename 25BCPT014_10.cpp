@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    float a, b;
-    printf("Enter weight in grams:");
-    scanf("%f", &a);
-    b=a/1000;
-    printf("%f grams in kilograms = %fkg", a, b);
+    int a, b;
+    printf("Enter the dollars to be converted into pounds:");
+    scanf("%d", &a);
+    b=(a*48)/70;
+    printf("%d dollars in pounds = %d", a, b);
     return 0;
 }
