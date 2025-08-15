@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a, b;
-    printf("Enter the hour to be converted into minutes:");
-    scanf("%d", &a);
-    b=a*60;
-    printf("%d hrs in minutes = %d", a, b);
+    float a, b;
+    printf("Enter two numbers:");
+    scanf("%f %f", &a, &b);
+    printf("The sum, difference, product and quotient of the two numbers is %f, %f, %f, %f respectively.", a+b, a-b, a*b, a/b);
     return 0;
 }
