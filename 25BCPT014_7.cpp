@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a, b;
-    printf("Enter the dollars to be converted into rupees:");
-    scanf("%d", &a);
-    b=a*48;
-    printf("%d dollars in rupees = %d", a, b);
+    float a, b;
+    printf("Enter the minutes to be converted into hours:");
+    scanf("%f", &a);
+    b=a/60;
+    printf("%f minutes in hours = %f", a, b);
     return 0;
 }
