@@ -2,9 +2,9 @@
 int main()
 {
     int a, b;
-    printf("Enter the rupees to be converted into dollars:");
+    printf("Enter the dollars to be converted into rupees:");
     scanf("%d", &a);
-    b=a/48;
-    printf("%d rupees in dollars = %d", a, b);
+    b=a*48;
+    printf("%d dollars in rupees = %d", a, b);
     return 0;
 }
